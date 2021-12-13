@@ -1,5 +1,5 @@
 <template>
-  <div>hhhhhhhh</div>
+  <div>modle-store-manager</div>
 </template>
 <script>
 export default {

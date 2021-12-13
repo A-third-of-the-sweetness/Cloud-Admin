@@ -1,5 +1,5 @@
 <template>
-  <div>user-manager</div>
+  <div>data-source-manager</div>
 </template>
 <script>
 export default {

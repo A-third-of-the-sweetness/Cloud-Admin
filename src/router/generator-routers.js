@@ -21,7 +21,11 @@ const constantRouterComponents = {
   Index: () => import('@/views/dashboard/Analysis'),
   TableList: () => import('@/views/example/TableList'),
   TableTest: () => import('@/views/example/test'),
-  manager: () => import('@/views/user/manager'),
+  manager: () => import('@/views/usermanager/manager'),
+  usergroupmanager: () => import('@/views/groupmanager/managerGroup'),
+  rolemanager: () => import('@/views/rolemanager/rolemanager'),
+  modlestoremanager: () => import('@/views/modlestoremanager/modlestoremanager'),
+  datasourcemanager: () => import('@/views/datasourcemanager/datasourcemanager'),
 }
 
 // 根级菜单

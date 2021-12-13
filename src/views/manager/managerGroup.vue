@@ -1,5 +1,5 @@
 <template>
-  <div>user-manager</div>
+  <div>user-group-manager</div>
 </template>
 <script>
 export default {

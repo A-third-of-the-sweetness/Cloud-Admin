@@ -1,19 +1,10 @@
-import { RouteLayout } from '@/layouts'
+import { userManager } from '@/views/manager/manager'
 
 const userModle = {
   path: '/usermanager',
   name: 'usermanager',
-  redirect: '/usermanager/manager',
-  component: RouteLayout,
+  component: userManager,
   meta: { title: '用户管理页面', keepAlive: true, icon: 'thunderbolt' },
-  children: [
-    {
-      path: '/usermanager/manager',
-      name: 'usermanagerlist',
-      component: () => import('@/views/user/manager'),
-      meta: { title: 'table', keepAlive: true },
-    },
-  ],
 }
 
 export default userModle

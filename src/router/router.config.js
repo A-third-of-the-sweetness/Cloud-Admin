@@ -5,6 +5,7 @@ import { openPermission } from '@/config/index'
 import exampleModle from '@/router/modules/example'
 import linkModle from '@/router/modules/link'
 import userModle from '@/router/modules/usermanager'
+import userGroupModle from '@/router/modules/usergroupmanager'
 
 // 自定义 icon引入
 // import { bxAnaalyse } from '@/core/icons'
@@ -68,9 +69,9 @@ let syncRouterMap = [
           },
         ],
       },
-      exampleModle,
-      linkModle,
-      userModle,
+      // exampleModle,
+      // linkModle,
+      // userModle,
     ],
   },
 ]
